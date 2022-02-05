@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Word Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 id="main_head">$ WordCounter $</h1>
+    <textarea name="message" id="message" value="Hii dude.How are u." placeholder="Type something here" onkeydown="getKey(event)"></textarea>
+    <!-- <div class="buttons">
+      <button class="btns" id="tweet">Tweet</button>
+      <button class="btns" id="copy">Copy</button>
+      <button class="btns" id="reset">Reset</button>
+    </div> -->
+  </div>
+
+  <div class="resultboxes">
+    <div id="wordbox" class="box">
+      <h3>Words</h3>
+      <h3 id="words">0</h3>
+    </div>
+    <div id="letterbox" class="box">
+      <h3>Letters</h3>
+      <h3 id="letters">0</h3>
+    </div>
+    <div id="spacebox" class="box">
+      <h3>Spaces</h3>
+      <h3 id="spaces">0</h3>
+    </div>
+    <div id="characterbox" class="box">
+      <h3>Characters</h3>
+      <h3 id="characters">0</h3>
+    </div>
+  </div>
+
+  <h3 id="owned">Designed by Vasanth</h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
